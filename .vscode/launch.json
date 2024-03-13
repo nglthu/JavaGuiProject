@@ -8,14 +8,14 @@
             "type": "java",
             "name": "JFXExp",
             "request": "launch",
-            "mainClass": "A.JFXExp",
+            "mainClass": "JFXExp",
             "projectName": "JFrameProject_92741cc0"
         },
         {
             "type": "java",
             "name": "Launch Java Program",
             "request": "launch",
-            "mainClass": "A.JFXExp.main",
+            "mainClass": "JFXExp.main",
             "projectName": "JFrameProject_92741cc0",
             "vmArgs": "--module-path /Users/lethunguyen/Java/javafx-sdk-23/lib --add-modules=javafx.controls,javafx.fxml"
         },
