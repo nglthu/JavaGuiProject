@@ -6,37 +6,24 @@
     "configurations": [
         {
             "type": "java",
-            "name": "JFXExp",
+            "name": "SwingExp",
             "request": "launch",
-            "mainClass": "_.src.JFXExp",
+            "mainClass": "SwingExp",
             "projectName": "JFrameProject_92741cc0"
         },
         {
             "type": "java",
-            "name": "JFXExp",
+            "name": "App",
             "request": "launch",
-            "mainClass": "JFXExp",
+            "mainClass": "App",
             "projectName": "JFrameProject_92741cc0"
         },
-        {
-            "type": "java",
-            "name": "JFXExp",
-            "request": "launch",
-            "mainClass": "JFXExp",
-            "projectName": "JFrameProject"
-        },
-        {
-            "type": "java",
-            "name": "JFXExp",
-            "request": "launch",
-            "mainClass": "JFXExp.Main",
-            "projectName": "JFrameProject"
-        },
+       
         {
             "type": "java",
             "name": "Launch Java Program",
             "request": "launch",
-            "mainClass": "JFXExp.Main",
+            "mainClass": "JFXExp",
             "projectName": "JFrameProject_92741cc0",
             "vmArgs": "--module-path /Users/lethunguyen/Java/javafx-sdk-23/lib --add-modules javafx.controls,javafx.fxml"
         },
