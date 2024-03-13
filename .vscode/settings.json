@@ -2,7 +2,16 @@
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "lib/**/*.jar",
+        "/Users/lethunguyen/Java/javafx-jmods-23/**/*.jar",
+        "/Users/lethunguyen/Java/javafx-sdk-23/lib/javafx-swt.jar",
+        "/Users/lethunguyen/Java/javafx-sdk-23/lib/javafx.base.jar",
+        "/Users/lethunguyen/Java/javafx-sdk-23/lib/javafx.controls.jar",
+        "/Users/lethunguyen/Java/javafx-sdk-23/lib/javafx.fxml.jar",
+        "/Users/lethunguyen/Java/javafx-sdk-23/lib/javafx.graphics.jar",
+        "/Users/lethunguyen/Java/javafx-sdk-23/lib/javafx.media.jar",
+        "/Users/lethunguyen/Java/javafx-sdk-23/lib/javafx.swing.jar",
+        "/Users/lethunguyen/Java/javafx-sdk-23/lib/javafx.web.jar"
     ],
     "java.completion.filteredTypes": [
         "com.sun.*",
@@ -10,5 +19,6 @@
         "jdk.*",
         "org.graalvm.*",
         "io.micrometer.shaded.*"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }

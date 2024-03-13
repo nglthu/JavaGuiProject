@@ -10,10 +10,10 @@ import javax.swing.JOptionPane;
 public final class SwingExp {
   
  
-  public static void main(String... aArgs){
+  /* public static void main(String... aArgs){
     SwingExp app = new SwingExp();
     app.buildAndDisplayGui();
-  }
+  } */
   
   private void buildAndDisplayGui(){
     JFrame frame = new JFrame("Test Frame"); 

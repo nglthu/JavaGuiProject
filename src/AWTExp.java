@@ -31,11 +31,11 @@ public class AWTExp extends Frame {
 }    
   
 // main method  
-public static void main(String args[]) {   
+/* public static void main(String args[]) {   
   
 // creating instance of Frame class   
 AWTExp f = new AWTExp();    
   
-}  
+}   */
   
 }    
