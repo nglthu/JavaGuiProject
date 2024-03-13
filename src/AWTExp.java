@@ -1,5 +1,5 @@
 import java.awt.*;
-import java.Swing;
+
  
   
 // extending Frame class to our class AWTExample1  
