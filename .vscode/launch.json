@@ -8,6 +8,13 @@
             "type": "java",
             "name": "JFXExp",
             "request": "launch",
+            "mainClass": "_.src.JFXExp",
+            "projectName": "JFrameProject_92741cc0"
+        },
+        {
+            "type": "java",
+            "name": "JFXExp",
+            "request": "launch",
             "mainClass": "JFXExp",
             "projectName": "JFrameProject_92741cc0"
         },
@@ -31,7 +38,7 @@
             "request": "launch",
             "mainClass": "JFXExp.Main",
             "projectName": "JFrameProject_92741cc0",
-            "vmArgs": "--module-path /Users/lethunguyen/Java/javafx-sdk-23/lib --add-modules=javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path /Users/lethunguyen/Java/javafx-sdk-23/lib --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",

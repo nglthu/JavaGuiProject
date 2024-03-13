@@ -15,13 +15,13 @@ public final class SwingExp {
     app.buildAndDisplayGui();
   } */
   
-  private void buildAndDisplayGui(){
+   private void buildAndDisplayGui(){
     JFrame frame = new JFrame("Test Frame"); 
     buildContent(frame);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.pack();
     frame.setVisible(true);
-  }
+  } 
   
   private void buildContent(JFrame aFrame){
     JPanel panel = new JPanel();
