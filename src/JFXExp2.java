@@ -13,6 +13,8 @@ import javafx.scene.control.Alert;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+//Import PatientRecord
+import PatientRecord;
 
 public class JFXExp extends Application {
 
@@ -66,9 +68,9 @@ public class JFXExp extends Application {
             // iHBox.setMargin(iTextField, new Insets(20, 20, 20, 20));
             // iHBox.setMargin(iButton, new Insets(20, 20, 20, 20));
             iButton.setOnAction(e -> {
-                // Alert iAlert = new Alert(Alert.AlertType.CONFIRMATION);
-                // iAlert.setTitle("test");
-
+                PatientRecord pR = new PatientRecord();
+                //Add patient to the Record
+                pR.insertPatient(iTextFieldName.toString(),iTextFieldDoB.toString());
                 primaryStage.setTitle(iTextFieldName.toString());
 
             });
